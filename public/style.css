@@ -1,0 +1,70 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+
+.my_image {
+    /*width: 120px;*/
+    height: 80%;
+}
+
+img.post {
+    width: 120px;
+}
+
+.title {
+    height: 5%;
+}
+
+.header {
+    display: flex;
+    /*justify-content: space-around;*/
+    background-color: #F6F1F1;
+    color: black;
+    height: 17%;
+    align-items: center;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    height: 78%;
+}
+
+.post {
+    /*height:100%;*/
+    width: 70%;
+    background-color: #146C94;
+    padding: 20px;
+    /*overflow: scroll;*/
+}
+
+#post-messages {
+    height: 90%;
+    /*width: 70%;*/
+    /*background-color: aqua;*/
+    /*padding: 20px;*/
+    overflow: scroll;
+}
+
+.post-form {
+    /*width: 70%;*/
+    /*background-color: aqua;*/
+    /*padding: 20px;*/
+    /*overflow: scroll;*/
+    height: 30px;
+}
+
+.user-list {
+    width: 30%;
+    background-color: #19A7CE;
+    padding: 20px;
+}
+
+.header > div {
+    padding: 20px;
+}
+
+.like-button {
+    margin-right: 10px; /* Add padding on the right side of the like button */
+}
