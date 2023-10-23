@@ -4,8 +4,12 @@ body {
 }
 
 .my_image {
-    /*width: 120px;*/
-    height: 80%;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    /*height: 80%;*/
 }
 
 img.post {
